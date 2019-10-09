@@ -1,0 +1,987 @@
+2019-10-09 00:44:16,330 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-09 00:44:23,225 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 00:44:23,255 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 00:44:23,256 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 00:44:23,258 INFO  main                             - 
+All activated module list(1) >>>>>>>
+  └─ service-provider
+
+Modules that could install(1) >>>>>>>
+  └─ service-provider
+
+2019-10-09 00:44:23,265 INFO  main                             - Start install SOFABoot-Demos module: service-provider
+2019-10-09 00:44:23,664 INFO  sofa-module-start-service-provider - Begin refresh Spring Application Context of module service-provider of application SOFABoot-Demo.
+2019-10-09 00:44:23,737 INFO  sofa-module-start-service-provider - Registering component: service:com.scnx.sofa.demo.service.SampleJvmService
+2019-10-09 00:44:23,737 INFO  sofa-module-start-service-provider -  <<PreOut Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService.
+2019-10-09 00:44:23,738 INFO  sofa-module-start-service-provider -  <<PreOut Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService.
+2019-10-09 00:44:23,738 INFO  sofa-module-start-service-provider -  <<Out Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService.
+2019-10-09 00:44:23,738 INFO  sofa-module-start-service-provider -  <<Out Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService.
+2019-10-09 00:44:23,738 INFO  sofa-module-start-service-provider - Register Service - com.scnx.sofa.demo.service.SampleJvmService
+2019-10-09 00:44:23,765 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 00:44:23,765 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 00:44:23,766 INFO  main                             - 
+Spring context initialize success module list(1) >>>>>>> [totalTime = 100 ms, realTime = 100 ms]
+  └─ service-provider [100 ms]
+       `---D:\personal\eclipse_workspace\service-provider\target\classes\META-INF\spring\service-provider.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(1) >>>>>>> [totalTime = 100 ms, realTime = 100 ms]
+  └─ service-provider [100 ms]
+
+2019-10-09 00:44:23,766 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 00:44:23,882 INFO  main                             - Registering component: reference:com.scnx.sofa.demo.service.SampleJvmService:#1928055863
+2019-10-09 00:44:23,883 INFO  main                             -  >>In Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService.
+2019-10-09 00:44:23,890 INFO  main                             -  >>In Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService.
+2019-10-09 00:47:23,037 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-09 00:47:30,129 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 00:47:30,146 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 00:47:30,147 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 00:47:30,151 INFO  main                             - 
+All activated module list(1) >>>>>>>
+  └─ service-provider
+
+Modules that could install(1) >>>>>>>
+  └─ service-provider
+
+2019-10-09 00:47:30,159 INFO  main                             - Start install SOFABoot-Demos module: service-provider
+2019-10-09 00:47:30,425 INFO  sofa-module-start-service-provider - Begin refresh Spring Application Context of module service-provider of application SOFABoot-Demo.
+2019-10-09 00:47:30,510 INFO  sofa-module-start-service-provider - Registering component: service:com.scnx.sofa.demo.service.SampleJvmService
+2019-10-09 00:47:30,510 INFO  sofa-module-start-service-provider -  <<PreOut Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService.
+2019-10-09 00:47:30,510 INFO  sofa-module-start-service-provider -  <<PreOut Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService.
+2019-10-09 00:47:30,510 INFO  sofa-module-start-service-provider -  <<Out Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService.
+2019-10-09 00:47:30,510 INFO  sofa-module-start-service-provider -  <<Out Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService.
+2019-10-09 00:47:30,510 INFO  sofa-module-start-service-provider - Register Service - com.scnx.sofa.demo.service.SampleJvmService
+2019-10-09 00:47:30,523 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 00:47:30,524 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 00:47:30,524 INFO  main                             - 
+Spring context initialize success module list(1) >>>>>>> [totalTime = 97 ms, realTime = 97 ms]
+  └─ service-provider [97 ms]
+       `---D:\personal\eclipse_workspace\service-provider\target\classes\META-INF\spring\service-provider.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(1) >>>>>>> [totalTime = 97 ms, realTime = 97 ms]
+  └─ service-provider [97 ms]
+
+2019-10-09 00:47:30,524 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 00:47:30,633 INFO  main                             - Registering component: reference:com.scnx.sofa.demo.service.SampleJvmService:#1928055863
+2019-10-09 00:47:30,634 INFO  main                             -  >>In Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService.
+2019-10-09 00:47:30,640 INFO  main                             -  >>In Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService.
+2019-10-09 08:55:39,617 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-09 08:55:42,463 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 08:55:42,479 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 08:55:42,479 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 08:55:42,479 INFO  main                             - 
+All activated module list(1) >>>>>>>
+  └─ service-provider
+
+Modules that could install(1) >>>>>>>
+  └─ service-provider
+
+2019-10-09 08:55:42,479 INFO  main                             - Start install SOFABoot-Demos module: service-provider
+2019-10-09 08:55:42,682 INFO  sofa-module-start-service-provider - Begin refresh Spring Application Context of module service-provider of application SOFABoot-Demo.
+2019-10-09 08:55:42,713 INFO  sofa-module-start-service-provider - Registering component: service:com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01
+2019-10-09 08:55:42,713 INFO  sofa-module-start-service-provider -  <<PreOut Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 08:55:42,713 INFO  sofa-module-start-service-provider -  <<PreOut Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 08:55:42,713 INFO  sofa-module-start-service-provider -  <<Out Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 08:55:42,713 INFO  sofa-module-start-service-provider -  <<Out Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 08:55:42,713 INFO  sofa-module-start-service-provider - Register Service - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01
+2019-10-09 08:55:42,713 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 08:55:42,713 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 08:55:42,713 INFO  main                             - 
+Spring context initialize success module list(1) >>>>>>> [totalTime = 31 ms, realTime = 31 ms]
+  └─ service-provider [31 ms]
+       `---D:\personal\eclipse_workspace\service-provider\target\classes\META-INF\spring\service-provider.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(1) >>>>>>> [totalTime = 31 ms, realTime = 31 ms]
+  └─ service-provider [31 ms]
+
+2019-10-09 08:55:42,713 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 08:55:42,760 INFO  main                             - Registering component: reference:com.scnx.sofa.demo.service.SampleJvmService:#1928055863
+2019-10-09 08:55:42,760 INFO  main                             -  >>In Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService.
+2019-10-09 08:55:42,760 INFO  main                             -  >>In Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService.
+2019-10-09 08:56:29,236 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-09 08:56:31,791 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 08:56:31,791 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 08:56:31,791 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 08:56:31,791 INFO  main                             - 
+All activated module list(1) >>>>>>>
+  └─ service-provider
+
+Modules that could install(1) >>>>>>>
+  └─ service-provider
+
+2019-10-09 08:56:31,806 INFO  main                             - Start install SOFABoot-Demos module: service-provider
+2019-10-09 08:56:31,885 INFO  sofa-module-start-service-provider - Begin refresh Spring Application Context of module service-provider of application SOFABoot-Demo.
+2019-10-09 08:56:31,916 INFO  sofa-module-start-service-provider - Registering component: service:com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01
+2019-10-09 08:56:31,916 INFO  sofa-module-start-service-provider -  <<PreOut Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 08:56:31,916 INFO  sofa-module-start-service-provider -  <<PreOut Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 08:56:31,916 INFO  sofa-module-start-service-provider -  <<Out Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 08:56:31,916 INFO  sofa-module-start-service-provider -  <<Out Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 08:56:31,916 INFO  sofa-module-start-service-provider - Register Service - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01
+2019-10-09 08:56:31,916 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 08:56:31,916 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 08:56:31,916 INFO  main                             - 
+Spring context initialize success module list(1) >>>>>>> [totalTime = 31 ms, realTime = 31 ms]
+  └─ service-provider [31 ms]
+       `---D:\personal\eclipse_workspace\service-provider\target\classes\META-INF\spring\service-provider.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(1) >>>>>>> [totalTime = 31 ms, realTime = 31 ms]
+  └─ service-provider [31 ms]
+
+2019-10-09 08:56:31,916 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 08:56:31,947 INFO  main                             - Registering component: reference:com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01#1928055863
+2019-10-09 08:56:31,947 INFO  main                             -  >>In Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 08:56:31,947 INFO  main                             -  >>In Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 09:09:23,549 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-09 09:09:26,242 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 09:09:26,242 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 09:09:26,242 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 09:09:26,242 INFO  main                             - 
+All activated module list(1) >>>>>>>
+  └─ service-provider
+
+Modules that could install(1) >>>>>>>
+  └─ service-provider
+
+2019-10-09 09:09:26,242 INFO  main                             - Start install SOFABoot-Demos module: service-provider
+2019-10-09 09:09:26,336 INFO  sofa-module-start-service-provider - Begin refresh Spring Application Context of module service-provider of application SOFABoot-Demo.
+2019-10-09 09:09:26,351 INFO  sofa-module-start-service-provider - Registering component: service:com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01
+2019-10-09 09:09:26,351 INFO  sofa-module-start-service-provider -  <<PreOut Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 09:09:26,351 INFO  sofa-module-start-service-provider -  <<PreOut Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 09:09:26,351 INFO  sofa-module-start-service-provider -  <<Out Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 09:09:26,351 INFO  sofa-module-start-service-provider -  <<Out Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 09:09:26,351 INFO  sofa-module-start-service-provider - Register Service - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01
+2019-10-09 09:09:26,367 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 09:09:26,367 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 09:09:26,367 INFO  main                             - 
+Spring context initialize success module list(1) >>>>>>> [totalTime = 31 ms, realTime = 31 ms]
+  └─ service-provider [31 ms]
+       `---D:\personal\eclipse_workspace\service-provider\target\classes\META-INF\spring\service-provider.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(1) >>>>>>> [totalTime = 31 ms, realTime = 31 ms]
+  └─ service-provider [31 ms]
+
+2019-10-09 09:09:26,367 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 09:36:55,460 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-09 09:36:57,995 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 09:36:57,995 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 09:36:57,995 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 09:36:57,995 INFO  main                             - 
+All activated module list(1) >>>>>>>
+  └─ service-provider
+
+Modules that could install(1) >>>>>>>
+  └─ service-provider
+
+2019-10-09 09:36:58,011 INFO  main                             - Start install SOFABoot-Demos module: service-provider
+2019-10-09 09:36:58,105 ERROR main                             - Install module service-provider got an error!
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 11 in XML document from file [D:\personal\eclipse_workspace\service-provider\target\classes\META-INF\spring\service-provider.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 11; columnNumber: 26; cvc-complex-type.2.4.a: 发现了以元素 'sofa:bind.bolt' 开头的无效内容。应以 '{"http://sofastack.io/schema/sofaboot":binding.jvm, "http://sofastack.io/schema/sofaboot":binding.bolt, "http://sofastack.io/schema/sofaboot":binding.rest, "http://sofastack.io/schema/sofaboot":binding.dubbo, "http://sofastack.io/schema/sofaboot":binding.h2c}' 之一开头。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:404)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at com.alipay.sofa.isle.loader.DynamicSpringContextLoader.loadBeanDefinitions(DynamicSpringContextLoader.java:109)
+	at com.alipay.sofa.isle.loader.DynamicSpringContextLoader.loadSpringContext(DynamicSpringContextLoader.java:101)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.installSpringContext(SpringContextInstallStage.java:94)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doProcess(SpringContextInstallStage.java:70)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doProcess(SpringContextInstallStage.java:60)
+	at com.alipay.sofa.isle.stage.AbstractPipelineStage.process(AbstractPipelineStage.java:45)
+	at com.alipay.sofa.isle.stage.DefaultPipelineContext.process(DefaultPipelineContext.java:31)
+	at com.alipay.sofa.isle.spring.listener.SofaModuleContextRefreshedListener.onApplicationEvent(SofaModuleContextRefreshedListener.java:55)
+	at com.alipay.sofa.isle.spring.listener.SofaModuleContextRefreshedListener.onApplicationEvent(SofaModuleContextRefreshedListener.java:43)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: 发现了以元素 'sofa:bind.bolt' 开头的无效内容。应以 '{"http://sofastack.io/schema/sofaboot":binding.jvm, "http://sofastack.io/schema/sofaboot":binding.bolt, "http://sofastack.io/schema/sofaboot":binding.rest, "http://sofastack.io/schema/sofaboot":binding.dubbo, "http://sofastack.io/schema/sofaboot":binding.h2c}' 之一开头。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:453)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3231)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1791)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.emptyElement(XMLSchemaValidator.java:761)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:77)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:434)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:392)
+	... 49 common frames omitted
+2019-10-09 09:36:58,120 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 09:36:58,120 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 09:36:58,120 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(1) >>>>>>>
+  └─ service-provider
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2019-10-09 09:36:58,120 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 09:36:58,167 INFO  main                             - Registering component: reference:com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01#1928055863
+2019-10-09 09:36:58,167 INFO  main                             -  >>In Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 09:36:58,167 INFO  main                             -  >>In Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 10:03:30,289 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-09 10:03:32,875 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 10:03:32,875 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 10:03:32,875 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 10:03:32,875 INFO  main                             - 
+All activated module list(1) >>>>>>>
+  ���� service-provider-0.0.1-SNAPSHOT.jar
+
+Modules that could install(1) >>>>>>>
+  ���� service-provider-0.0.1-SNAPSHOT.jar
+
+2019-10-09 10:03:32,875 INFO  main                             - Start install SOFABoot-Demos module: service-provider-0.0.1-SNAPSHOT.jar
+2019-10-09 10:03:32,985 INFO  sofa-module-start-service-provider - Begin refresh Spring Application Context of module service-provider-0.0.1-SNAPSHOT.jar of application SOFABoot-Demo.
+2019-10-09 10:03:33,016 INFO  sofa-module-start-service-provider - Registering component: service:com.scnx.sofa.demo.service.SampleJvmService
+2019-10-09 10:03:33,016 INFO  sofa-module-start-service-provider -  <<PreOut Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService.
+2019-10-09 10:03:33,016 INFO  sofa-module-start-service-provider -  <<PreOut Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService.
+2019-10-09 10:03:33,016 INFO  sofa-module-start-service-provider -  <<Out Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService.
+2019-10-09 10:03:33,016 INFO  sofa-module-start-service-provider -  <<Out Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService.
+2019-10-09 10:03:33,016 INFO  sofa-module-start-service-provider - Register Service - com.scnx.sofa.demo.service.SampleJvmService
+2019-10-09 10:03:33,016 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 10:03:33,016 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 10:03:33,016 INFO  main                             - 
+Spring context initialize success module list(1) >>>>>>> [totalTime = 31 ms, realTime = 31 ms]
+  ���� service-provider-0.0.1-SNAPSHOT.jar [31 ms]
+       `---service-provider.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(1) >>>>>>> [totalTime = 31 ms, realTime = 31 ms]
+  ���� service-provider-0.0.1-SNAPSHOT.jar [31 ms]
+
+2019-10-09 10:03:33,016 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 10:03:33,047 INFO  main                             - Registering component: reference:com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01#1808358676
+2019-10-09 10:03:33,047 INFO  main                             -  >>In Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 10:03:33,047 INFO  main                             -  >>In Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 10:05:37,271 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-09 10:05:38,324 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 10:05:38,339 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 10:05:38,339 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 10:05:38,339 INFO  main                             - 
+All activated module list(1) >>>>>>>
+  └─ service-provider
+
+Modules that could install(1) >>>>>>>
+  └─ service-provider
+
+2019-10-09 10:05:38,339 INFO  main                             - Start install SOFABoot-Demos module: service-provider
+2019-10-09 10:05:38,417 ERROR main                             - Install module service-provider got an error!
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 11 in XML document from file [D:\personal\eclipse_workspace\service-provider\target\classes\META-INF\spring\service-provider.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 11; columnNumber: 26; cvc-complex-type.2.4.a: 发现了以元素 'sofa:bind.bolt' 开头的无效内容。应以 '{"http://sofastack.io/schema/sofaboot":binding.jvm, "http://sofastack.io/schema/sofaboot":binding.bolt, "http://sofastack.io/schema/sofaboot":binding.rest, "http://sofastack.io/schema/sofaboot":binding.dubbo, "http://sofastack.io/schema/sofaboot":binding.h2c}' 之一开头。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:404)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at com.alipay.sofa.isle.loader.DynamicSpringContextLoader.loadBeanDefinitions(DynamicSpringContextLoader.java:109)
+	at com.alipay.sofa.isle.loader.DynamicSpringContextLoader.loadSpringContext(DynamicSpringContextLoader.java:101)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.installSpringContext(SpringContextInstallStage.java:94)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doProcess(SpringContextInstallStage.java:70)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doProcess(SpringContextInstallStage.java:60)
+	at com.alipay.sofa.isle.stage.AbstractPipelineStage.process(AbstractPipelineStage.java:45)
+	at com.alipay.sofa.isle.stage.DefaultPipelineContext.process(DefaultPipelineContext.java:31)
+	at com.alipay.sofa.isle.spring.listener.SofaModuleContextRefreshedListener.onApplicationEvent(SofaModuleContextRefreshedListener.java:55)
+	at com.alipay.sofa.isle.spring.listener.SofaModuleContextRefreshedListener.onApplicationEvent(SofaModuleContextRefreshedListener.java:43)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.scnx.sofa.demo.SofaDemoApplication.main(SofaDemoApplication.java:10)
+Caused by: org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: 发现了以元素 'sofa:bind.bolt' 开头的无效内容。应以 '{"http://sofastack.io/schema/sofaboot":binding.jvm, "http://sofastack.io/schema/sofaboot":binding.bolt, "http://sofastack.io/schema/sofaboot":binding.rest, "http://sofastack.io/schema/sofaboot":binding.dubbo, "http://sofastack.io/schema/sofaboot":binding.h2c}' 之一开头。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:453)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3231)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1791)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.emptyElement(XMLSchemaValidator.java:761)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:77)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:434)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:392)
+	... 24 common frames omitted
+2019-10-09 10:05:38,417 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 10:05:38,417 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 10:05:38,417 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(1) >>>>>>>
+  └─ service-provider
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2019-10-09 10:05:38,417 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 10:06:17,548 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-09 10:06:19,954 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 10:06:19,970 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 10:06:19,970 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 10:06:19,970 INFO  main                             - 
+All activated module list(1) >>>>>>>
+  └─ service-provider
+
+Modules that could install(1) >>>>>>>
+  └─ service-provider
+
+2019-10-09 10:06:19,970 INFO  main                             - Start install SOFABoot-Demos module: service-provider
+2019-10-09 10:06:20,048 ERROR main                             - Install module service-provider got an error!
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 11 in XML document from file [D:\personal\eclipse_workspace\service-provider\target\classes\META-INF\spring\service-provider.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 11; columnNumber: 26; cvc-complex-type.2.4.a: 发现了以元素 'sofa:bind.bolt' 开头的无效内容。应以 '{"http://sofastack.io/schema/sofaboot":binding.jvm, "http://sofastack.io/schema/sofaboot":binding.bolt, "http://sofastack.io/schema/sofaboot":binding.rest, "http://sofastack.io/schema/sofaboot":binding.dubbo, "http://sofastack.io/schema/sofaboot":binding.h2c}' 之一开头。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:404)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at com.alipay.sofa.isle.loader.DynamicSpringContextLoader.loadBeanDefinitions(DynamicSpringContextLoader.java:109)
+	at com.alipay.sofa.isle.loader.DynamicSpringContextLoader.loadSpringContext(DynamicSpringContextLoader.java:101)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.installSpringContext(SpringContextInstallStage.java:94)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doProcess(SpringContextInstallStage.java:70)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doProcess(SpringContextInstallStage.java:60)
+	at com.alipay.sofa.isle.stage.AbstractPipelineStage.process(AbstractPipelineStage.java:45)
+	at com.alipay.sofa.isle.stage.DefaultPipelineContext.process(DefaultPipelineContext.java:31)
+	at com.alipay.sofa.isle.spring.listener.SofaModuleContextRefreshedListener.onApplicationEvent(SofaModuleContextRefreshedListener.java:55)
+	at com.alipay.sofa.isle.spring.listener.SofaModuleContextRefreshedListener.onApplicationEvent(SofaModuleContextRefreshedListener.java:43)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.scnx.sofa.demo.SofaDemoApplication.main(SofaDemoApplication.java:10)
+Caused by: org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: 发现了以元素 'sofa:bind.bolt' 开头的无效内容。应以 '{"http://sofastack.io/schema/sofaboot":binding.jvm, "http://sofastack.io/schema/sofaboot":binding.bolt, "http://sofastack.io/schema/sofaboot":binding.rest, "http://sofastack.io/schema/sofaboot":binding.dubbo, "http://sofastack.io/schema/sofaboot":binding.h2c}' 之一开头。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:453)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3231)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1791)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.emptyElement(XMLSchemaValidator.java:761)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:77)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:434)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:392)
+	... 26 common frames omitted
+2019-10-09 10:06:20,048 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 10:06:20,048 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 10:06:20,048 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(1) >>>>>>>
+  └─ service-provider
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2019-10-09 10:06:20,048 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 10:16:12,224 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-09 10:16:14,727 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 10:16:14,727 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 10:16:14,727 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 10:16:14,727 INFO  main                             - 
+All activated module list(1) >>>>>>>
+  └─ service-provider
+
+Modules that could install(1) >>>>>>>
+  └─ service-provider
+
+2019-10-09 10:16:14,742 INFO  main                             - Start install SOFABoot-Demos module: service-provider
+2019-10-09 10:16:14,820 ERROR main                             - Install module service-provider got an error!
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 11 in XML document from file [D:\personal\eclipse_workspace\service-provider\target\classes\META-INF\spring\service-provider.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 11; columnNumber: 26; cvc-complex-type.2.4.a: 发现了以元素 'sofa:bind.bolt' 开头的无效内容。应以 '{"http://sofastack.io/schema/sofaboot":binding.jvm, "http://sofastack.io/schema/sofaboot":binding.bolt, "http://sofastack.io/schema/sofaboot":binding.rest, "http://sofastack.io/schema/sofaboot":binding.dubbo, "http://sofastack.io/schema/sofaboot":binding.h2c}' 之一开头。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:404)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at com.alipay.sofa.isle.loader.DynamicSpringContextLoader.loadBeanDefinitions(DynamicSpringContextLoader.java:109)
+	at com.alipay.sofa.isle.loader.DynamicSpringContextLoader.loadSpringContext(DynamicSpringContextLoader.java:101)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.installSpringContext(SpringContextInstallStage.java:94)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doProcess(SpringContextInstallStage.java:70)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doProcess(SpringContextInstallStage.java:60)
+	at com.alipay.sofa.isle.stage.AbstractPipelineStage.process(AbstractPipelineStage.java:45)
+	at com.alipay.sofa.isle.stage.DefaultPipelineContext.process(DefaultPipelineContext.java:31)
+	at com.alipay.sofa.isle.spring.listener.SofaModuleContextRefreshedListener.onApplicationEvent(SofaModuleContextRefreshedListener.java:55)
+	at com.alipay.sofa.isle.spring.listener.SofaModuleContextRefreshedListener.onApplicationEvent(SofaModuleContextRefreshedListener.java:43)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.scnx.sofa.demo.SofaDemoApplication.main(SofaDemoApplication.java:10)
+Caused by: org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: 发现了以元素 'sofa:bind.bolt' 开头的无效内容。应以 '{"http://sofastack.io/schema/sofaboot":binding.jvm, "http://sofastack.io/schema/sofaboot":binding.bolt, "http://sofastack.io/schema/sofaboot":binding.rest, "http://sofastack.io/schema/sofaboot":binding.dubbo, "http://sofastack.io/schema/sofaboot":binding.h2c}' 之一开头。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:453)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3231)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1791)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.emptyElement(XMLSchemaValidator.java:761)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:77)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:434)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:392)
+	... 26 common frames omitted
+2019-10-09 10:16:14,820 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 10:16:14,820 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 10:16:14,820 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(1) >>>>>>>
+  └─ service-provider
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2019-10-09 10:16:14,820 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 10:16:22,742 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-09 10:16:25,172 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 10:16:25,172 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 10:16:25,172 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 10:16:25,172 INFO  main                             - 
+All activated module list(1) >>>>>>>
+  └─ service-provider
+
+Modules that could install(1) >>>>>>>
+  └─ service-provider
+
+2019-10-09 10:16:25,172 INFO  main                             - Start install SOFABoot-Demos module: service-provider
+2019-10-09 10:16:25,250 ERROR main                             - Install module service-provider got an error!
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 11 in XML document from file [D:\personal\eclipse_workspace\service-provider\target\classes\META-INF\spring\service-provider.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 11; columnNumber: 26; cvc-complex-type.2.4.a: 发现了以元素 'sofa:bind.bolt' 开头的无效内容。应以 '{"http://sofastack.io/schema/sofaboot":binding.jvm, "http://sofastack.io/schema/sofaboot":binding.bolt, "http://sofastack.io/schema/sofaboot":binding.rest, "http://sofastack.io/schema/sofaboot":binding.dubbo, "http://sofastack.io/schema/sofaboot":binding.h2c}' 之一开头。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:404)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at com.alipay.sofa.isle.loader.DynamicSpringContextLoader.loadBeanDefinitions(DynamicSpringContextLoader.java:109)
+	at com.alipay.sofa.isle.loader.DynamicSpringContextLoader.loadSpringContext(DynamicSpringContextLoader.java:101)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.installSpringContext(SpringContextInstallStage.java:94)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doProcess(SpringContextInstallStage.java:70)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doProcess(SpringContextInstallStage.java:60)
+	at com.alipay.sofa.isle.stage.AbstractPipelineStage.process(AbstractPipelineStage.java:45)
+	at com.alipay.sofa.isle.stage.DefaultPipelineContext.process(DefaultPipelineContext.java:31)
+	at com.alipay.sofa.isle.spring.listener.SofaModuleContextRefreshedListener.onApplicationEvent(SofaModuleContextRefreshedListener.java:55)
+	at com.alipay.sofa.isle.spring.listener.SofaModuleContextRefreshedListener.onApplicationEvent(SofaModuleContextRefreshedListener.java:43)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.scnx.sofa.demo.SofaDemoApplication.main(SofaDemoApplication.java:10)
+Caused by: org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: 发现了以元素 'sofa:bind.bolt' 开头的无效内容。应以 '{"http://sofastack.io/schema/sofaboot":binding.jvm, "http://sofastack.io/schema/sofaboot":binding.bolt, "http://sofastack.io/schema/sofaboot":binding.rest, "http://sofastack.io/schema/sofaboot":binding.dubbo, "http://sofastack.io/schema/sofaboot":binding.h2c}' 之一开头。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:453)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3231)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1791)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.emptyElement(XMLSchemaValidator.java:761)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:77)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:434)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:392)
+	... 26 common frames omitted
+2019-10-09 10:16:25,250 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 10:16:25,250 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 10:16:25,250 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(1) >>>>>>>
+  └─ service-provider
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2019-10-09 10:16:25,250 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 11:06:26,508 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-09 11:06:29,146 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 11:06:29,161 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 11:06:29,161 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 11:06:29,161 INFO  main                             - 
+All activated module list(1) >>>>>>>
+  └─ service-provider
+
+Modules that could install(1) >>>>>>>
+  └─ service-provider
+
+2019-10-09 11:06:29,161 INFO  main                             - Start install SOFABoot-Demos module: service-provider
+2019-10-09 11:06:29,239 ERROR main                             - Install module service-provider got an error!
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 11 in XML document from file [D:\personal\eclipse_workspace\service-provider\target\classes\META-INF\spring\service-provider.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 11; columnNumber: 25; cvc-complex-type.2.4.a: 发现了以元素 'sofa:bind.jvm' 开头的无效内容。应以 '{"http://sofastack.io/schema/sofaboot":binding.jvm, "http://sofastack.io/schema/sofaboot":binding.bolt, "http://sofastack.io/schema/sofaboot":binding.rest, "http://sofastack.io/schema/sofaboot":binding.dubbo, "http://sofastack.io/schema/sofaboot":binding.h2c}' 之一开头。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:404)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at com.alipay.sofa.isle.loader.DynamicSpringContextLoader.loadBeanDefinitions(DynamicSpringContextLoader.java:109)
+	at com.alipay.sofa.isle.loader.DynamicSpringContextLoader.loadSpringContext(DynamicSpringContextLoader.java:101)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.installSpringContext(SpringContextInstallStage.java:94)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doProcess(SpringContextInstallStage.java:70)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doProcess(SpringContextInstallStage.java:60)
+	at com.alipay.sofa.isle.stage.AbstractPipelineStage.process(AbstractPipelineStage.java:45)
+	at com.alipay.sofa.isle.stage.DefaultPipelineContext.process(DefaultPipelineContext.java:31)
+	at com.alipay.sofa.isle.spring.listener.SofaModuleContextRefreshedListener.onApplicationEvent(SofaModuleContextRefreshedListener.java:55)
+	at com.alipay.sofa.isle.spring.listener.SofaModuleContextRefreshedListener.onApplicationEvent(SofaModuleContextRefreshedListener.java:43)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: 发现了以元素 'sofa:bind.jvm' 开头的无效内容。应以 '{"http://sofastack.io/schema/sofaboot":binding.jvm, "http://sofastack.io/schema/sofaboot":binding.bolt, "http://sofastack.io/schema/sofaboot":binding.rest, "http://sofastack.io/schema/sofaboot":binding.dubbo, "http://sofastack.io/schema/sofaboot":binding.h2c}' 之一开头。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:453)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3231)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1791)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.emptyElement(XMLSchemaValidator.java:761)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:77)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:434)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:392)
+	... 49 common frames omitted
+2019-10-09 11:06:29,239 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 11:06:29,239 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 11:06:29,239 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(1) >>>>>>>
+  └─ service-provider
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2019-10-09 11:06:29,239 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 11:06:29,302 INFO  main                             - Registering component: reference:com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01#1928055863
+2019-10-09 11:06:29,302 INFO  main                             -  >>In Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 11:06:29,302 INFO  main                             -  >>In Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 11:07:09,567 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-09 11:07:12,177 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 11:07:12,177 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 11:07:12,177 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 11:07:12,193 INFO  main                             - 
+All activated module list(1) >>>>>>>
+  └─ service-provider
+
+Modules that could install(1) >>>>>>>
+  └─ service-provider
+
+2019-10-09 11:07:12,193 INFO  main                             - Start install SOFABoot-Demos module: service-provider
+2019-10-09 11:07:12,286 ERROR main                             - Install module service-provider got an error!
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 11 in XML document from file [D:\personal\eclipse_workspace\service-provider\target\classes\META-INF\spring\service-provider.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 11; columnNumber: 25; cvc-complex-type.2.4.a: 发现了以元素 'sofa:bind.jvm' 开头的无效内容。应以 '{"http://sofastack.io/schema/sofaboot":binding.jvm, "http://sofastack.io/schema/sofaboot":binding.bolt, "http://sofastack.io/schema/sofaboot":binding.rest, "http://sofastack.io/schema/sofaboot":binding.dubbo, "http://sofastack.io/schema/sofaboot":binding.h2c}' 之一开头。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:404)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at com.alipay.sofa.isle.loader.DynamicSpringContextLoader.loadBeanDefinitions(DynamicSpringContextLoader.java:109)
+	at com.alipay.sofa.isle.loader.DynamicSpringContextLoader.loadSpringContext(DynamicSpringContextLoader.java:101)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.installSpringContext(SpringContextInstallStage.java:94)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doProcess(SpringContextInstallStage.java:70)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doProcess(SpringContextInstallStage.java:60)
+	at com.alipay.sofa.isle.stage.AbstractPipelineStage.process(AbstractPipelineStage.java:45)
+	at com.alipay.sofa.isle.stage.DefaultPipelineContext.process(DefaultPipelineContext.java:31)
+	at com.alipay.sofa.isle.spring.listener.SofaModuleContextRefreshedListener.onApplicationEvent(SofaModuleContextRefreshedListener.java:55)
+	at com.alipay.sofa.isle.spring.listener.SofaModuleContextRefreshedListener.onApplicationEvent(SofaModuleContextRefreshedListener.java:43)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: 发现了以元素 'sofa:bind.jvm' 开头的无效内容。应以 '{"http://sofastack.io/schema/sofaboot":binding.jvm, "http://sofastack.io/schema/sofaboot":binding.bolt, "http://sofastack.io/schema/sofaboot":binding.rest, "http://sofastack.io/schema/sofaboot":binding.dubbo, "http://sofastack.io/schema/sofaboot":binding.h2c}' 之一开头。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:453)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3231)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1791)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.emptyElement(XMLSchemaValidator.java:761)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:77)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:434)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:392)
+	... 49 common frames omitted
+2019-10-09 11:07:12,286 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 11:07:12,286 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 11:07:12,286 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(1) >>>>>>>
+  └─ service-provider
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2019-10-09 11:07:12,286 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 11:07:12,349 INFO  main                             - Registering component: reference:com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01#1928055863
+2019-10-09 11:07:12,349 INFO  main                             -  >>In Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 11:07:12,349 INFO  main                             -  >>In Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 11:08:30,321 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-09 11:08:32,986 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 11:08:33,002 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 11:08:33,002 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 11:08:33,002 INFO  main                             - 
+All activated module list(1) >>>>>>>
+  └─ service-provider
+
+Modules that could install(1) >>>>>>>
+  └─ service-provider
+
+2019-10-09 11:08:33,017 INFO  main                             - Start install SOFABoot-Demos module: service-provider
+2019-10-09 11:08:33,142 INFO  sofa-module-start-service-provider - Begin refresh Spring Application Context of module service-provider of application SOFABoot-Demo.
+2019-10-09 11:08:33,158 INFO  sofa-module-start-service-provider - Registering component: service:com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01
+2019-10-09 11:08:33,158 INFO  sofa-module-start-service-provider -  <<PreOut Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 11:08:33,158 INFO  sofa-module-start-service-provider -  <<PreOut Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 11:08:33,158 INFO  sofa-module-start-service-provider -  <<Out Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 11:08:33,158 INFO  sofa-module-start-service-provider -  <<Out Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 11:08:33,158 INFO  sofa-module-start-service-provider - Register Service - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01
+2019-10-09 11:08:33,174 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 11:08:33,174 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 11:08:33,174 INFO  main                             - 
+Spring context initialize success module list(1) >>>>>>> [totalTime = 32 ms, realTime = 32 ms]
+  └─ service-provider [32 ms]
+       `---D:\personal\eclipse_workspace\service-provider\target\classes\META-INF\spring\service-provider.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(1) >>>>>>> [totalTime = 32 ms, realTime = 32 ms]
+  └─ service-provider [32 ms]
+
+2019-10-09 11:08:33,174 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 11:08:33,205 INFO  main                             - Registering component: reference:com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01#1928055863
+2019-10-09 11:08:33,205 INFO  main                             -  >>In Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 11:08:33,205 INFO  main                             -  >>In Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 11:09:15,571 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-09 11:09:18,257 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 11:09:18,273 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 11:09:18,273 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 11:09:18,273 INFO  main                             - 
+All activated module list(1) >>>>>>>
+  └─ service-provider
+
+Modules that could install(1) >>>>>>>
+  └─ service-provider
+
+2019-10-09 11:09:18,273 INFO  main                             - Start install SOFABoot-Demos module: service-provider
+2019-10-09 11:09:18,351 ERROR main                             - Install module service-provider got an error!
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 11 in XML document from file [D:\personal\eclipse_workspace\service-provider\target\classes\META-INF\spring\service-provider.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 11; columnNumber: 26; cvc-complex-type.2.4.a: 发现了以元素 'sofa:bind.jvm' 开头的无效内容。应以 '{"http://sofastack.io/schema/sofaboot":binding.jvm, "http://sofastack.io/schema/sofaboot":binding.bolt, "http://sofastack.io/schema/sofaboot":binding.rest, "http://sofastack.io/schema/sofaboot":binding.dubbo, "http://sofastack.io/schema/sofaboot":binding.h2c}' 之一开头。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:404)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at com.alipay.sofa.isle.loader.DynamicSpringContextLoader.loadBeanDefinitions(DynamicSpringContextLoader.java:109)
+	at com.alipay.sofa.isle.loader.DynamicSpringContextLoader.loadSpringContext(DynamicSpringContextLoader.java:101)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.installSpringContext(SpringContextInstallStage.java:94)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doProcess(SpringContextInstallStage.java:70)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doProcess(SpringContextInstallStage.java:60)
+	at com.alipay.sofa.isle.stage.AbstractPipelineStage.process(AbstractPipelineStage.java:45)
+	at com.alipay.sofa.isle.stage.DefaultPipelineContext.process(DefaultPipelineContext.java:31)
+	at com.alipay.sofa.isle.spring.listener.SofaModuleContextRefreshedListener.onApplicationEvent(SofaModuleContextRefreshedListener.java:55)
+	at com.alipay.sofa.isle.spring.listener.SofaModuleContextRefreshedListener.onApplicationEvent(SofaModuleContextRefreshedListener.java:43)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: 发现了以元素 'sofa:bind.jvm' 开头的无效内容。应以 '{"http://sofastack.io/schema/sofaboot":binding.jvm, "http://sofastack.io/schema/sofaboot":binding.bolt, "http://sofastack.io/schema/sofaboot":binding.rest, "http://sofastack.io/schema/sofaboot":binding.dubbo, "http://sofastack.io/schema/sofaboot":binding.h2c}' 之一开头。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:453)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3231)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1791)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.emptyElement(XMLSchemaValidator.java:761)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:77)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:434)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:392)
+	... 49 common frames omitted
+2019-10-09 11:09:18,351 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 11:09:18,351 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 11:09:18,351 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(1) >>>>>>>
+  └─ service-provider
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2019-10-09 11:09:18,351 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 11:09:18,420 INFO  main                             - Registering component: reference:com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01#1928055863
+2019-10-09 11:09:18,420 INFO  main                             -  >>In Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 11:09:18,422 INFO  main                             -  >>In Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 11:10:20,940 INFO  main                             - SOFABoot Runtime Starting!
+2019-10-09 11:10:23,597 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 11:10:23,613 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 11:10:23,613 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 11:10:23,613 INFO  main                             - 
+All activated module list(1) >>>>>>>
+  └─ service-provider
+
+Modules that could install(1) >>>>>>>
+  └─ service-provider
+
+2019-10-09 11:10:23,613 INFO  main                             - Start install SOFABoot-Demos module: service-provider
+2019-10-09 11:10:23,722 INFO  sofa-module-start-service-provider - Begin refresh Spring Application Context of module service-provider of application SOFABoot-Demo.
+2019-10-09 11:10:23,738 INFO  sofa-module-start-service-provider - Registering component: service:com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01
+2019-10-09 11:10:23,738 INFO  sofa-module-start-service-provider -  <<PreOut Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 11:10:23,738 INFO  sofa-module-start-service-provider -  <<PreOut Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 11:10:23,738 INFO  sofa-module-start-service-provider -  <<Out Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 11:10:23,738 INFO  sofa-module-start-service-provider -  <<Out Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 11:10:23,738 INFO  sofa-module-start-service-provider - Register Service - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01
+2019-10-09 11:10:23,738 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 11:10:23,738 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo Start +++++++++++++++++
+2019-10-09 11:10:23,738 INFO  main                             - 
+Spring context initialize success module list(1) >>>>>>> [totalTime = 16 ms, realTime = 16 ms]
+  └─ service-provider [16 ms]
+       `---D:\personal\eclipse_workspace\service-provider\target\classes\META-INF\spring\service-provider.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(1) >>>>>>> [totalTime = 16 ms, realTime = 16 ms]
+  └─ service-provider [16 ms]
+
+2019-10-09 11:10:23,738 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot-Demo End +++++++++++++++++
+2019-10-09 11:10:23,769 INFO  main                             - Registering component: reference:com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01#1928055863
+2019-10-09 11:10:23,769 INFO  main                             -  >>In Binding [jvm] Begins - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
+2019-10-09 11:10:23,769 INFO  main                             -  >>In Binding [jvm] Ends - com.scnx.sofa.demo.service.SampleJvmService:sampleJvmService01.
